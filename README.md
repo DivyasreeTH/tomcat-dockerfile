@@ -12,12 +12,12 @@ ADD hello-1.0.war /usr/local/tomcat/webapps/
 EXPOSE 8080  
 CMD ["catalina.sh", "run"]   
 
-##Building
+##Building  
 3) Run following command 
 
 > docker build -t tomcat8 .
 
-##Running
+##Running  
 4) run docker container tomcat8
 
 > docker run -it -d -p 8080:8080 tomcat8
