@@ -7,10 +7,10 @@
 
 ##Listing
 
-FROM tomcat:8.0
-ADD hello-1.0.war /usr/local/tomcat/webapps/
-EXPOSE 8080
-CMD ["catalina.sh", "run"]
+FROM tomcat:8.0  
+ADD hello-1.0.war /usr/local/tomcat/webapps/   
+EXPOSE 8080  
+CMD ["catalina.sh", "run"]   
 
 ##Building
 3) Run following command 
